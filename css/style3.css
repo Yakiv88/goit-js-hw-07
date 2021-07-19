@@ -1,0 +1,10 @@
+.list3 {
+  display: flex;
+  border: 1px solid drey;
+  border-radius: 4px;
+}
+.gallery__item {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
