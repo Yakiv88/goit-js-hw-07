@@ -1,5 +1,4 @@
 
-
 const refs = {
     inputEl: document.querySelector('#name-input'),
    outputEl: document.querySelector('#name-output')

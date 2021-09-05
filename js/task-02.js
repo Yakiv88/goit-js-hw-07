@@ -10,7 +10,8 @@ const ingredients = [
 const ingradientsList = document.querySelector('#ingredients');
 const element = ingredients.map(element => {
     const ingradientsListEl = document.createElement('li')
-    ingradientsListEl.textContent = element
+  ingradientsListEl.textContent = element
+  
     console.log(ingradientsListEl)
     return ingradientsListEl 
 

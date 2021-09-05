@@ -16,7 +16,9 @@ const images = [
 
 const galleryEl = document.querySelector('#gallery');
 const addGalleryListEl = images.map(element => {
-  const addGalleryListElImg = `<li class="gallery__item"><a href="https://goit.global/javascript/ru/v1/module-07/props-attrs.html" class="link3"><img src="${element.url}" alt="${element.alt}"
+  const addGalleryListElImg = `<li class="gallery__item">
+  <a href="https://goit.global/javascript/ru/v1/module-07/props-attrs.html"
+  class="link3"><img src="${element.url}" alt="${element.alt}"
    width=320px height=150></a></li>`;
   return addGalleryListElImg;
 });

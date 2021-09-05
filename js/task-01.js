@@ -13,6 +13,7 @@
 const categoriesListEl = document.querySelectorAll('.item')
 const showQuantityOfCategories = element => `В списке ${element.length} категории.`
 console.log(showQuantityOfCategories(categoriesListEl));
+
 const showCategories = element => element.forEach(el =>
     console.log(`Категория: ${el.querySelector(`h2`).textContent}. Количество элементов: ${el.querySelectorAll(`li`).length}.`))
 showCategories(categoriesListEl);
